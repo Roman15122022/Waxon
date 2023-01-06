@@ -70,7 +70,7 @@ p{
 /*INTRO
 ===================================*/
 .intro{
-    background: url("../img/bg.jpg") center no-repeat;
+    background: url("../img/header/bg.jpg") center no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -120,3 +120,114 @@ p{
     border-color:  #736357;
 
 }
+/*Services
+_______________________________*/
+.services{
+    margin-top: 75px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+.services__item{
+    width: 25%;
+}
+.services__inner{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.services__icon1{
+
+    margin-bottom: 20px;
+
+
+}
+.services__title{
+    color: #555555;
+    font-size: 22px;
+    font-family: 'Raleway',sans-serif;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.services__text{
+    font-size: 14px;
+    color: #8c8c8c;
+}
+.services__text:after{
+    content: '';
+    background-color: #c7b299;
+    width: 70px;
+    height: 3px;
+    display: block;
+    margin: 30px auto;
+    opacity: 0;
+    z-index: 1000;
+}
+.services__item:hover
+.services__title{
+    color: #c7b299;
+    transition: color .2s linear;
+}
+.services__item:hover
+.services__text:after{
+    opacity: 1;
+    transition: opacity .2s linear;
+
+}
+.services__item:hover
+.services__icon1{
+    opacity: .8;
+    transition: opacity .2s linear;
+}
+/*IDEAS
+--------------------------------------*/
+.ides{
+
+}
+.ideas__iner{
+    text-align: center;
+    margin-top: 150px;
+}
+.ideas__title{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Raleway',sans-serif;
+    color: #555555;
+    margin-bottom: 25px;
+}
+.ideas__text{
+
+    font-size: 16px;
+    color: #555555;
+    line-height: 1.5;
+}
+.ideas__item{
+    margin-top: 60px;
+}
+.ideas__photo{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.ideas__photo--center{
+    position: absolute;
+    top: 1588px;
+    right: 602px;
+    margin: 0 auto;
+    z-index: 1000;
+}
+.ideas__photo--left{
+    position: absolute;
+    left: 100px;
+    top: 1670px;
+    z-index: 1;
+}
+.ideas__photo--right{
+    position: absolute;
+    right: 100px;
+    z-index: 2;
+    top: 1670px;
+}
+
+
