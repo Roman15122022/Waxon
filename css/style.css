@@ -375,6 +375,79 @@ _______________________________*/
     color: #c7b299;
     transition: color .2s linear;
 }
+/*Video
+------------------------------------*/
+.video{
+    margin-top: 80px;
+    background: url("../img/video/Waxom-Hemepage_02.jpg")
+    center no-repeat;
+    background-size:cover ;
+    width: 100%;
+    height: 705px;
+}
+.video__inner{
+    text-align: center;
+    padding-top: 355px;
+}
+.video__title{
+    font-size: 30px;
+    font-family: 'Raleway',sans-serif;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 20px;
+}
+.video__text{
+    font-size: 16px;
+    line-height: 1.8;
+    color: white;
+}
+.video__time{
+    margin-top: 35px;
+    font-size: 14px;
+    color: #c7b299;
+}
+/*Iphone
+----------------------------*/
+.iphone{
+    margin-top: 75px;
+}
+.iphone__inner{
+    display: flex;
+    /*flex-wrap: wrap;*/
+
+}
+
+.iphone__title{
+    margin-top: 116px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #555555;
+}
+.iphone__text{
+    padding-top: 35px;
+    justify-content: end;
+    font-size: 16px;
+    color: #8c8c8c;
+    line-height: 1.8;
+}
+.iphone__strings{
+    font-size: 16px;
+    color: #8c8c8c;
+    margin-top: 80px;
+}
+
+.iphone__string{
+    margin-bottom: 20px;
+    margin-left:52px ;
+}
+.iphone__arrow{
+    color: white;
+    margin-right: 30px;
+    text-align: center;
+    border: 2px solid #c7b299;
+    border-radius: 20px;
+    background-color: #c7b299;
+}
 
 
 
