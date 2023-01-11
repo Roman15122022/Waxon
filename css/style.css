@@ -509,6 +509,7 @@ _______________________________*/
     color: #c7b299;
     margin-left: 19px;
     margin-top: 29px;
+    cursor: pointer;
 
 }
 .posts__data{
@@ -555,11 +556,137 @@ _______________________________*/
     transition: background-color .2s linear;
     border-color: #a48d72;
 }
+.posts_navigation{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 70px;
+
+
+}
+.posts__nav1{
+    color: #d2d2d2;
+    border: 2px solid #d2d2d2;
+    border-radius: 50%;
+    padding: 5px 7px;
+    margin-right: 20px;
+}
+.posts__nav2{
+    color: #d2d2d2;
+    border: 2px solid #d2d2d2;
+    border-radius: 50%;
+    padding: 5px 7px;
+
+}
+.posts__nav1:hover{
+    color: #c9b49c;
+    border-color: #c9b49c;
+    transition: color .2s linear;
+    transition: border-color .2s linear;
+
+}
+.posts__nav2:hover{
+    color: #c9b49c;
+    border-color: #c9b49c;
+    transition: color .2s linear;
+    transition: border-color .2s linear;
+
+}
+
 
 .triangle {
     font-size: 10px;
 }
 
+/*Logos
+------------------------------------*/
+.logos{
+    width: 100%;
+    height: 490px;
+    background: url("../img/logos/logos__bgc.jpg");
+}
+.logos__inner{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.logos__item{
+    padding-top: 162px;
+}
+
+/*Footer
+-----------------------------------------*/
+.footer{
+
+    background-color: #191919;
+}
+.footer__inner{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer__item{
+    padding-top: 85px;
+
+    width: 23%;
+    margin-right: 20px;
+}
+.footer__item:last-child{
+    margin-right: 0;
+}
+.footer__title{
+    font-size: 34px;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+}
+.footer__logo{
+    position: absolute;
+    margin-top: 6px;
+}
+.footer__text{
+    margin-top: 25px;
+    font-size: 14px ;
+    color: #555555;
+}
+.footer__read{
+    line-height: 1.5;
+    font-size: 14px;
+    color: #ffffff;
+    cursor: pointer;
+    margin-top: 29px;
+}
+.footer__title2{
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.footer__block{
+    cursor: pointer;
+}
+.footer__data{
+    margin-top: 20px;
+    font-size: 12px;
+    color: #363636;
+}
+.footer__text2{
+    font-size: 14px;
+    color: #555555;
+    margin-top: 7px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #252525 ;
+}
+.footer__block:hover
+.footer__data{
+    color: white;
+    transition: color .2s linear;
+}
+.footer__block:hover
+.footer__text2{
+    color: #c7b299;
+    transition: color .2s linear;
+}
 
 
 
